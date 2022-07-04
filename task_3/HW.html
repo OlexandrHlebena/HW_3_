@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="Alexander.hlebena@gmail.com" method="post" enctype="text/plain">
+        <fieldset>
+            <legend>About yourself</legend>
+            <label><input type="text" placeholder="ПІБ"></label> <br>
+            <label><input type="text" placeholder="адреса"></label> <br>
+            <label><input type="text" placeholder="вік"></label><br>
+            <label><input type="text" placeholder="пошта"></label><br>
+        </fieldset>
+        <fieldset>
+            <legend>About your job</legend>
+            <label><input type="text" placeholder="адреса організації"></label><br><br>
+            <label><input type="text" placeholder="стаж роботи"></label><br>
+            <label>Дата початку роботи <input type="date" id="data" value="2022-07-04" max="2022-07-04"></label><br>
+        </fieldset>
+        <Fieldset>
+            <legend>Statistical questionnaire</legend>
+            <p> Як оцінюєте роботу президента? </p>
+                <select name="mark">
+                    <option>terrible</option>
+                    <option>not good enough</option>
+                    <option selected>satisfying</option>
+                    <option>good</option>
+                    <option>excellent</option>
+                </select><br> 
+            <label><textarea name="usertext" cols="30" rows="10" placeholder="Коментар стосовно останніх виборів"></textarea></label> <br>
+    
+                <p> найкращий місяць для відпустки</p>
+                <select name="best month" >
+                    <option>січень</option>
+                    <option>лютий</option>
+                    <option>березень</option>
+                    <option>квітень</option>
+                    <option>травень</option>
+                    <option>червень</option>
+                    <option selected>липень</option>
+                    <option>серпень</option>
+                    <option>вересень</option>
+                    <option>жовтень</option>
+                    <option>листопад</option>
+                    <option>грудень</option>
+                </select>
+            </label><br>
+        </Fieldset>
+        <fieldset>
+            <legend>Priorities</legend>
+            <p>Which coffee do you prefer?</p>
+                <Label><input type="radio" value="espresso">espresso</Label> <br>
+                <label><input type="radio" value="latte">latte</label> <br>
+                <label><input type="radio" value="americano">americano</label> <br>
+                <label><input type="radio" value="cappuccino">cappuccino</label> <br>
+            <p>Where do you prefer to relax?</p>
+                <label><input type="checkbox" value="yes">mountains</label> <br>
+                <label><input type="checkbox" value="yes">seas</label> <br>
+                <label><input type="checkbox" value="yes">lakes</label> <br>
+                <label><input type="checkbox" value="yes">rivers</label> <br>
+            <p>Which car do you choose from the list?</p>
+                <select>
+                    <option>toyota</option> 
+                    <option>bmw</option> 
+                    <option>Shkoda</option>
+                    <option>audi</option> 
+                </select>
+            <p>What vegetables do you like?</p>
+                <select>
+                    <option selected disabled>-select-</option>
+                    <optgroup label="бобові">
+                        <option>фасоля</option>
+                        <option>боби</option>
+                    </optgroup>
+                    <optgroup label="цибулинні та стеблові">
+                        <option>цибуля</option>
+                        <option>часник</option>
+                        <option>спаржа</option>
+                        <option>селера</option>
+                    </optgroup>
+                    <optgroup label="плоди">
+                        <option>авокадо</option>
+                        <option>чайот</option>
+                        <option>огірок</option>
+                        <option>люффа</option>
+                    </optgroup>
+                </select>
+        </fieldset>
+        <input type="submit" value="send">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
